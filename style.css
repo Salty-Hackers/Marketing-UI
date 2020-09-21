@@ -20,15 +20,13 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/*border: 0; */
+	border: 0; 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 
-*{
-	border:1px solid red;
-}
+
 
 body{
 	
@@ -51,7 +49,12 @@ header img{
 nav a{
 	color: #F0E68C;
 	font-size: 2rem;
+	text-decoration: none;
 	
+}
+nav a:hover{
+	color: lightcoral;
+
 }
 .salt{
 	display:flex;
@@ -78,8 +81,8 @@ button{
     font-size: 2rem;
     border-radius:10%;
     border:5px solid #F08080;
-	transition: 4s;
-	background-color: #BD7227;
+	transition: 1s;
+	background-color: #F0E68C;
 	color:#008B8B;
 	font-family:'Nunito', sans-serif; 
 }
