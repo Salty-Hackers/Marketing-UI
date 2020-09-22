@@ -86,3 +86,41 @@ button{
 	color:#008B8B;
 	font-family:'Nunito', sans-serif; 
 }
+
+
+ .meet{
+	font-family:'Grenze Gotisch', cursive ;
+	color:#191970;
+	text-align: center;
+	background-color: #008B8B;
+	
+}
+
+body .allp{
+	background-color: #008B8B;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+	
+
+	
+	
+
+}
+
+body .allp img{
+	border-radius: 50%;
+	width:50%;
+	padding:10%;
+	margin-left: 10%;;
+}
+
+body .allp p,a{
+	font-family:'Nunito', sans-serif; 
+	font-size: 150%;
+	color: #F08080;
+	margin-left: 22%;
+
+}
+
