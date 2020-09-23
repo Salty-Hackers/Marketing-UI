@@ -96,7 +96,7 @@ footer{
 
 @media(max-width:800px){
    
-   *{border:1px solid black;}
+  
     nav a{
        font-size: 1.2rem;
        width:.5%;
@@ -132,5 +132,23 @@ footer{
         text-align: center;
         margin-left: 7%;
     }
+
+}
+
+@media(max-width:500px){
+   
+    nav a{
+        font-size: 1rem;
+    }
+   .meet{
+        font-size: 200%;;
+        
+    }
+
+    .allp div{
+        margin-left: 8%;
+    }
+
+
 
 }
