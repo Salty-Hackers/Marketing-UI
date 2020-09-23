@@ -71,7 +71,7 @@ nav a:hover{
     font-family:'Grenze Gotisch', cursive ;
 	font-size: 500%;
 	color: #F0E68C;
-	text-shadow: 2px 4px 3px white(0, 0, 0, 0.2);
+	text-shadow: 2px 4px 3px solid black(0, 0, 0, 0.2);
 }
 
 .salt p{
@@ -80,6 +80,7 @@ nav a:hover{
 	font-family:'Nunito', sans-serif; 
 	padding:2%;
 	text-align: center;
+	text-shadow: 2px 4px 3px solid black(0, 0, 0, 0.2);
 }
 
 button{
@@ -93,6 +94,42 @@ button{
 	font-family:'Nunito', sans-serif; 
 }
 
+@media(max-width:800px){
+	h1{
+		font-size: 300%;
+	}
+	.salt p{
+		font-size: 130%;
+	
+	}
+	
+	button{
+		margin-top: 3%;
+	}
+
+
+}
+
+@media(max-width:500px){
+	
+	nav a{
+		font-size: 1.2rem;
+	}
+
+	h1{
+		font-size: 200%;
+	}
+
+	.salt p{
+		font-size:100%;
+		
+	}
+
+	button{
+		margin-bottom: 3%;
+		width: 20%, 20%;
+	}
+}
 
 	
 
