@@ -85,7 +85,7 @@ body .allp p,a{
 	font-family:'Nunito', sans-serif; 
 	font-size: 150%;
 	color: #F08080;
-	/*margin-left: 22%;*/
+	margin-left: 22%;
 
 }
 
@@ -100,7 +100,7 @@ footer{
     nav a{
        font-size: 1.2rem;
        width:.5%;
-       padding: 2%;
+       padding: 1%;
       }
 
     h1{
@@ -130,7 +130,10 @@ footer{
         font-size: 80%;;
         width: 100%;
         text-align: center;
-        margin-left: 7%;
+        display:flex;
+        flex-direction: column;
+        margin-right: 10%;
+        
     }
 
 }
@@ -139,6 +142,7 @@ footer{
    
     nav a{
         font-size: 1rem;
+        
     }
    .meet{
         font-size: 200%;;
@@ -146,7 +150,7 @@ footer{
     }
 
     .allp div{
-        margin-left: 8%;
+        margin-right: 8%;
     }
 
 
