@@ -83,7 +83,7 @@ nav a:hover{
 	text-shadow: 2px 4px 3px solid black(0, 0, 0, 0.2);
 }
 
-button{
+.abc{
     padding:2% 3%;
     font-size: 2rem;
     border-radius:10%;
@@ -92,9 +92,10 @@ button{
 	background-color: #F0E68C;
 	color:#008B8B;
 	font-family:'Nunito', sans-serif; 
+	text-decoration: none;
 }
 
-button:hover{
+.abc:hover{
 	color:#F0E68C;
 	background-color:#008B8B ;
 }
