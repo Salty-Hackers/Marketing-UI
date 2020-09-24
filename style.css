@@ -94,6 +94,11 @@ button{
 	font-family:'Nunito', sans-serif; 
 }
 
+button:hover{
+	color:#F0E68C;
+	background-color:#008B8B ;
+}
+
 @media(max-width:800px){
 	h1{
 		font-size: 300%;
