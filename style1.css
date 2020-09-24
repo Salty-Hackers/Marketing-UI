@@ -84,8 +84,9 @@ nav a:hover{
 body .allp p,a{
 	font-family:'Nunito', sans-serif; 
 	font-size: 150%;
-	color: #F08080;
-	margin-left: 22%;
+    color: white;
+    text-shadow: 2px 4px 3px solid black(0, 0, 0, 0.2);
+    margin-left: 22%;
 
 }
 
